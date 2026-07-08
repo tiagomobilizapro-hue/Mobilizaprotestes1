@@ -95,3 +95,12 @@ Antes de instalar ou repassar uma nova versão:
 ## Observação importante
 
 Este arquivo não envia mensagens automaticamente. Ele garante rastreabilidade dentro do pacote do projeto. O envio externo para Ricardo ou Tiago deve ser feito pelo canal combinado entre vocês, anexando o ZIP mais recente.
+
+
+## 2026-07-08 - GitHub Pages login demonstrativo
+
+- Adicionado mock estático para GitHub Pages.
+- CPF demo: 000.000.000-00.
+- Senha demo: 123456.
+- Evita erro "Resposta inválida do servidor" em prévia estática.
+- Mantém aviso de que PHP/MySQL real devem ser testados na Hostinger/homologação.

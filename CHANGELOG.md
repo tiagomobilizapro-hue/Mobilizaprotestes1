@@ -166,3 +166,12 @@
 - Adicionado `assets/css/08-github-pages-visual-fix.css` para restaurar contraste escuro em ambiente estático.
 - Adicionado `assets/js/29-github-pages-static-guard.js` para indicação de prévia estática.
 - Removidos arquivos PHP/config do pacote de GitHub Pages para evitar exposição pública.
+
+
+## 2026-07-08 - GitHub Pages login demonstrativo
+
+- Adicionado mock estático para GitHub Pages.
+- CPF demo: 000.000.000-00.
+- Senha demo: 123456.
+- Evita erro "Resposta inválida do servidor" em prévia estática.
+- Mantém aviso de que PHP/MySQL real devem ser testados na Hostinger/homologação.

@@ -19,3 +19,16 @@ Importante: GitHub Pages não executa PHP e não conecta MySQL. Para teste compl
 5. Acesse com Ctrl+F5 ou aba anônima.
 
 Não suba apenas o patch visual. Para GitHub Pages, o repositório precisa conter o `index.html` e toda a pasta `assets`.
+
+## Login demonstrativo no GitHub Pages
+
+O GitHub Pages não executa PHP nem MySQL. Nesta versão, o login é simulado para permitir navegação visual.
+
+Acesso de demonstração:
+
+```text
+CPF: 000.000.000-00
+Senha: 123456
+```
+
+As gravações feitas nessa prévia ficam apenas no navegador/localStorage. Para testar login real, permissões, PHP e MySQL, use a Hostinger em ambiente de homologação.
