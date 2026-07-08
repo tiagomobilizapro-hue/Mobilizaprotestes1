@@ -1,0 +1,21 @@
+# MobilizaPRO - pacote visual para GitHub Pages
+
+Este pacote é para prévia visual/homologação estática no GitHub Pages.
+
+Importante: GitHub Pages não executa PHP e não conecta MySQL. Para teste completo com login, API e banco, use subdomínio na Hostinger.
+
+## Como publicar
+
+1. Extraia este ZIP no computador.
+2. No repositório GitHub, envie o conteúdo extraído para a raiz do repositório.
+3. Confirme que existem estes caminhos no GitHub:
+   - `index.html`
+   - `assets/css/01-style-1.css`
+   - `assets/css/08-github-pages-visual-fix.css`
+   - `assets/js/01-script-1.js`
+   - `assets/img/mobilizapro-logo-hq.png`
+   - `.nojekyll`
+4. Em Settings > Pages, publique pela branch correta.
+5. Acesse com Ctrl+F5 ou aba anônima.
+
+Não suba apenas o patch visual. Para GitHub Pages, o repositório precisa conter o `index.html` e toda a pasta `assets`.
